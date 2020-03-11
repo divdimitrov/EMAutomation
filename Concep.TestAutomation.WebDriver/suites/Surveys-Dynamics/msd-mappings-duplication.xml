@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Dynamics - Mappings Duplication">
+    <test name="Dynamics - Mappings Duplication">
+        <groups>
+            <run>
+                <include name="mappings-duplication"/>
+                <exclude name="open-defects"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="concep.selenium.Dynamic.*"/>
+        </packages>
+    </test>
+</suite>

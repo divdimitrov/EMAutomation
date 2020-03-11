@@ -1,0 +1,27 @@
+
+syntax: regexp
+^src/concep/selenium/core/Json\.java$
+syntax: regexp
+\.java$
+syntax: regexp
+
+syntax: regexp
+^config/firefox\.config\.properties$
+bin\**
+test-output\**
+
+
+LINK FOR RELEASE:
+
+Customers Manager v1.6 (DynamoDb to PostgreSQL Migration):
+https://concep.atlassian.net/wiki/spaces/QA/pages/776699921/Customers+Manager+v1.6+DynamoDb+to+PostgreSQL+Migration
+
+
+
+Syntax
+
+http://username:password@url
+example :
+
+driver.get("http://username:password@www.xyz.com/signin");
+

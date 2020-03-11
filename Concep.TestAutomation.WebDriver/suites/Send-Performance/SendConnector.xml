@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Send Connector Perofrmance Tests">
+    <test name="Send Connector Perofrmance Tests">
+        <groups>
+            <run>
+                <include name="Dynamic-Connector"/>
+                <exclude name="open-defects"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="concep.selenium.performance.*"/>
+        </packages>
+    </test>
+</suite>

@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SFDC - Maintenance Job">
+    <test name="SFDC - Maintenance Job">
+        <groups>
+            <run>
+                <include name="maintenance-job"/>
+                <exclude name="open-defects"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="concep.selenium.SalesForce.*"/>
+        </packages>
+    </test>
+</suite>

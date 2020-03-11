@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Subscription Form All Tests">
+    <test name="Subscription Form All Tests">
+        <groups>
+            <run>
+                <include name="all-tests"/>
+                <exclude name="open-defects"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="concep.selenium.subscriptionForm.*"/>
+        </packages>
+    </test>
+</suite>

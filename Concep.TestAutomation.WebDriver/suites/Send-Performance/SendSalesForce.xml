@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Send Salesforce Perofrmance Tests">
+    <test name="Send Salesforce Perofrmance Tests">
+        <groups>
+            <run>
+                <include name="Salesforce"/>
+                <exclude name="open-defects"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="concep.selenium.performance.*"/>
+        </packages>
+    </test>
+</suite>

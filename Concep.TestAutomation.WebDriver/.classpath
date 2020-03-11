@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/gson-2.5.jar"/>
+	<classpathentry kind="lib" path="lib/guava-19.0.jar"/>
+	<classpathentry kind="lib" path="lib/json-io-3.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/selenium-java-2.53.1.jar"/>
+	<classpathentry kind="lib" path="lib/selenium-server-standalone-2.53.1.jar"/>
+	<classpathentry kind="lib" path="lib/sikuli-script.jar"/>
+	<classpathentry kind="lib" path="lib/testng.jar"/>
+	<classpathentry kind="lib" path="lib/xpp3_xpath-1.1.4c.jar"/>
+	<classpathentry kind="lib" path="lib/xstream-1.4.7.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

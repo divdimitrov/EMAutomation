@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SFDC Key Tests">
+    <test name="SFDC Key Tests">
+        <groups>
+            <run>
+                <include name="key-tests"/>
+                <exclude name="open-defects"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="concep.selenium.SalesForce.*"/>
+        </packages>
+    </test>
+</suite>

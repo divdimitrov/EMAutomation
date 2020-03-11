@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="IA Connection Page Test Cases">
+    <test name="IA Connection Page Test Cases">
+        <groups>
+            <run>
+                <include name="connections"/>
+                <exclude name="open-defects"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="concep.selenium.ia.*"/>
+        </packages>
+    </test>
+</suite>

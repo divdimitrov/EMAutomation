@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Preference Manager All Tests">
+    <test name="Preference Manager All Tests">
+        <groups>
+            <run>
+                <include name="all-tests"/>
+                <exclude name="open-defects"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="concep.selenium.preferenceManager.*"/>
+        </packages>
+    </test>
+</suite>

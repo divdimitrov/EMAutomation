@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Send Dynamic4 Perofrmance Tests">
+    <test name="Send Dynamic4 Perofrmance Tests">
+        <groups>
+            <run>
+                <include name="Dynamic4"/>
+                <exclude name="open-defects"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="concep.selenium.performance.*"/>
+        </packages>
+    </test>
+</suite>

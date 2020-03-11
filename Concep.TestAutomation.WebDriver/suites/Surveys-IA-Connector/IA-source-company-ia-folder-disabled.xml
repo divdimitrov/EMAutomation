@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="IA Connector v1.1 Surveys - Source New Company in Marketing Event folder - Disabled">
+    <test name="IA Connector v1.1 Surveys - Source New Company in Marketing Event folder - Disabled">
+        <groups>
+            <run>
+                <include name="source-company-ia-folder-disabled"/>
+                <exclude name="open-defects"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="concep.selenium.iaConnector.*"/>
+        </packages>
+    </test>
+</suite>

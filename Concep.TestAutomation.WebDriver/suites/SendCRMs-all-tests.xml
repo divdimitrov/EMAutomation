@@ -1,0 +1,37 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Survey Test Automation">
+ <test name="Dynamics All Functional Tests ">
+        <groups>
+            <run>
+                <include name="all-tests"/>
+                <exclude name="open-defects"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="concep.selenium.Dynamic.*"/>
+        </packages>
+    </test>
+     <test name="IA All Functional Tests ">
+        <groups>
+            <run>
+                <include name="all-tests"/>
+                <exclude name="open-defects"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="concep.selenium.ia.*"/>
+        </packages>
+    </test>
+     <test name="SFDC All Functional Tests">
+        <groups>
+            <run>
+                <include name="all-tests"/>
+                <exclude name="open-defects"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="concep.selenium.SalesForce.*"/>
+        </packages>
+    </test>
+ </suite>

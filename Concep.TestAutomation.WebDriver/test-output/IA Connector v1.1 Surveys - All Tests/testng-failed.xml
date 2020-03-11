@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [IA Connector v1.1 Surveys - All Tests]">
+  <test name="IA Connector v1.1 Surveys - All Tests(failed)">
+    <groups>
+      <run>
+        <include name="all-tests"/>
+        <exclude name="open-defects"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="concep.selenium.iaConnector.SurveyCompletionWithAllMappings">
+        <methods>
+          <include name="successfullyCompletedSurveyWithDifferentTypesOfAdditionalField"/>
+          <include name="cleanup"/>
+          <include name="successfullyCompletedSurveyWithBMobileHMobileDepartmentAssistantFields"/>
+        </methods>
+      </class> <!-- concep.selenium.iaConnector.SurveyCompletionWithAllMappings -->
+      <class name="concep.selenium.iaConnector.SurveyCompletionWithAdditionalFieldMapping">
+        <methods>
+          <include name="successfullyCompletedSurveyTypeAdministrativefolderMultipleQuestionsLinkedToGFAndLFNewContact"/>
+          <include name="successfullyCompletedSurveyNoSponsorFolderMultipleQuestionsLinkedWithMultipleValuesToNewContact"/>
+          <include name="successfullyCompletedSurveyNoSponsorContactOnlyFolderMultipleQuestionsLinkedToGFAndLFNewCompanyAndContactMustNotCreated"/>
+          <include name="successfullyCompletedSurveyTypeMarkitngListSponsorfolderMultipleQuestionLinkedToGFAndLFNewContact"/>
+          <include name="successfullyCompletedSurveyTypeRegistrationMarkitngListSponsorIAfolderFTQuestionLinkedToLFNewContactNewCompany"/>
+          <include name="successfullyCompletedSurveyNoSponsorContactOnlyFolderMultipleQuestionsLinkedToGFAndLFNewContact"/>
+          <include name="successfullyCompletedSurveyTypeRegistrationSponsorContactOnlyIAfolderFTQuestionLinkedToLFNewContact"/>
+          <include name="successfullyCompletedSurveyTypeAdministrativefolderMultipleQuestionsLinkedToGFAndLFNewCompnay"/>
+          <include name="successfullyCompletedSurveyTypeRegistrationMarkitngListSponsorIAfolderFTQuestionLinkedToLFNewContact"/>
+          <include name="successfullyCompletedFeedbackSurveyNoContactOnlySponsorFolderMCQuestionLinkedToGFNewContact"/>
+          <include name="successfullyCompletedSurveyTypeRegistrationMarkitngListSponsorIAfolderMCQuestionLinkedToLFNewContact"/>
+          <include name="successfullyCompletedSurveyTypeRegistrationMarkitngListSponsorIAfolderFTQuestionLinkedToGFNewContact"/>
+          <include name="cleanup"/>
+          <include name="successfullyCompletedFeedbackSurveyNoSponsorContactOnlyFolderMCQuestionLinkedToLFNewContact"/>
+          <include name="successfullyCompletedFeedbackSurveyNoSponsorContactOnlyFolderFTQuestionLinkedToGFNewContact"/>
+          <include name="successfullyCompletedSurveyMarkitngListNoSponsorFolderMultipleQuestionsLinkedToGFAndLFNewContact"/>
+          <include name="successfullyCompletedSurveyTypeSponsorContactOnlyFolderMultipleQuestionLinkedWithMultipleValuesToNewContact"/>
+          <include name="successfullyCompletedFeedbackSurveyMarkitngListNoSponsorFolderMCQuestionLinkedToLFNewContact"/>
+          <include name="successfullyCompletedFeedbackSurveyMarkitngListNoSponsorFolderFTQuestionLinkedToGFNewContact"/>
+          <include name="successfullyCompletedSurveyTypeRegistrationSponsorContactOnlyIAfolderMCQuestionLinkedToGFNewContact"/>
+          <include name="successfullyCompletedFeedbackSurveyMarkitngListNoSponsorFolderMCQuestionLinkedToGFNewContactNewCompany"/>
+          <include name="successfullyCompletedSurveyTypeRegistrationMarkitngListSponsorIAfolderMCQuestionLinkedToGFNewContact"/>
+          <include name="successfullyCompletedSurveyNoSponsorContactOnlyFolderMultipleQuestionsLinkedWithMultipleValuesToNewContact"/>
+          <include name="successfullyCompletedSurveyTypeRegistrationMarkitngListSponsorIAfolderMCQuestionLinkedToGFNewContactNewCompany"/>
+          <include name="successfullyCompletedSurveyTypeSponsorfolderMultipleQuestionLinkedWithMultipleValuesToNewContact"/>
+          <include name="successfullyCompletedFeedbackSurveyMarkitngListNoSponsorFolderMCQuestionLinkedToLFNewContactNewCompany"/>
+          <include name="successfullyCompletedFeedbackSurveyNoSponsorContactOnlyFolderFTQuestionLinkedToLFNewContact"/>
+          <include name="successfullyCompletedSurveyNoSponsorContactOnlyFolderMultipleQuestionsLinkedToGFAndLFNewCompanyMustNotCreated"/>
+          <include name="successfullyCompletedSurveyTypeMarkitngListSponsorfolderMultipleQuestionLinkedToGFAndLFNewCompany"/>
+          <include name="successfullyCompletedFeedbackSurveyMarkitngListNoSponsorFolderFTQuestionLinkedToGFNewContactNewCompany"/>
+          <include name="successfullyCompletedSurveyTypeRegistrationSponsorContactOnlyIAfolderFTQuestionLinkedToGFNewContact"/>
+          <include name="successfullyCompletedSurveyMarkitngListNoSponsorFolderMultipleQuestionsLinkedToGFAndLFNewCompany"/>
+          <include name="successfullyCompletedSurveyTypeRegistrationMarkitngListSponsorIAfolderFTQuestionLinkedToGFNewContactNewCompany"/>
+          <include name="successfullyCompletedFeedbackSurveyMarkitngListNoSponsorFolderMCQuestionLinkedToGFNewContact"/>
+          <include name="successfullyCompletedSurveyTypeRegistrationMarkitngListSponsorIAfolderMCQuestionLinkedToLFNewContactNewCompany"/>
+          <include name="successfullyCompletedFeedbackSurveyMarkitngListNoSponsorFolderFTQuestionLinkedToLFNewContactNewCompany"/>
+          <include name="successfullyCompletedFeedbackSurveyMarkitngListNoSponsorFolderFTQuestionLinkedToLFNewContact"/>
+          <include name="successfullyCompletedSurveyTypeRegistrationSponsorContactOnlyIAfolderMCQuestionLinkedToLFNewContact"/>
+          <include name="successfullyCompletedSurveyTypeSponsorContactOnlyFolderMultipleQuestionLinkedToGFAndLFNewContact"/>
+        </methods>
+      </class> <!-- concep.selenium.iaConnector.SurveyCompletionWithAdditionalFieldMapping -->
+      <class name="concep.selenium.iaConnector.CampaignCreation">
+        <methods>
+          <include name="cleanup"/>
+          <include name="startSelenium"/>
+          <include name="beforeClassSetUp"/>
+        </methods>
+      </class> <!-- concep.selenium.iaConnector.CampaignCreation -->
+      <class name="concep.selenium.iaConnector.SurveyCreation">
+        <methods>
+          <include name="sucecssfullyCopyFromOutsideSurveyWithNotMappedDefaultFTQandMCQ"/>
+          <include name="sucecssfullyCopyFromInsideSurveyWithNotMappedDefaultFTQandMCQ"/>
+          <include name="unsuccessfullyDisplayNotMappedFreeTextQuestionsIndicatorWhenSavingSurvey"/>
+          <include name="unsuccessfullyDisplayNotMappedMultipleChoiceQuestionsIndicatorWhenSavingSurvey"/>
+          <include name="successfullyDisplayWarningMessageDuplicatedMultipleChoiceQuestionMappingsSamePage"/>
+          <include name="successfullyDisplayMappedMultipleChoiceQuestionsIndicatorOtherLanguagePages"/>
+          <include name="successfullyDisplayMappedSurveyIndicatorWhilePaging"/>
+          <include name="cleanup"/>
+          <include name="successfullyCreateSurveyWithDuplicatedQuesitonMappingsSamePage"/>
+          <include name="unsuccessfullyDisplayMappedSurveyIndicatorWhenAlreadyExistingMappedSurveyIsUnMapped"/>
+          <include name="sucecssfullyCopyFromOutsideSurveyWithAllQuesitonMappingsManyLanguages"/>
+          <include name="beforeClassSetUP"/>
+          <include name="successfullyDisplayMappedMultipleChoiceQuestionsIndicatorWithoutSavingSurvey"/>
+          <include name="successfullyDisplayWarningMessageDuplicatedFreeTextQuestionMappingsSamePage"/>
+          <include name="successfullyDisplayMappedSurveyIndicatorWhenAlreadyExistingNotMappedSurveyIsMapped"/>
+          <include name="successfullyDisplaySurveyLanguagePages"/>
+          <include name="sucecssfullyCopyAndEditFromInsideSurveyWithNotMappedDefaultFTQandMCQ"/>
+          <include name="successfullyRetainmappingsAfterAddingNewFTQuestions"/>
+          <include name="unsuccessfullyDisplayContentQuestionsIndicatorOtherLanguagePages"/>
+          <include name="successfullyDisplayMappedSurveyIndicatorWhenSurveyRecordIsCopied"/>
+          <include name="sucecssfullyCopyAndEditFromOutsideSurveyWithNotMappedDefaultMCQ"/>
+          <include name="sucecssfullyCopyFromOutsideSurveyWithNotMappedDefaultFTQ"/>
+          <include name="unsuccessfullyDisplayNotMappedMultipleChoiceQuestionsIndicatorWithoutSavingSurvey"/>
+          <include name="successfullyCreateSurveyWithDuplicatedQuesitonMappingsDifferentPage"/>
+          <include name="sucecssfullyCopyFromInsideSurveyWithAllQuesitonMappingsManyPages"/>
+          <include name="sucecssfullyCopyAndEditFromOutsideSurveyWithAllQuesitonMappings"/>
+          <include name="sucecssfullyCopyFromInsideSurveyWithAllQuesitonMappings"/>
+          <include name="successfullyRetainMappingsAfterAddingDragAndDropQuestions"/>
+          <include name="sucecssfullyCopyAndEditFromOutsideSurveyWithAllQuesitonMappingsManyPages"/>
+          <include name="sucecssfullyCopyFromOutsideSurveyWithAllQuesitonMappingsManyPages"/>
+          <include name="successfullyDisplayMappedSurveyIndicatorWhenSearchForMappedSurvey"/>
+          <include name="successfullyDisplayWarningMessageDuplicatedMultipleChoiceQuestionMappingsDifferentPages"/>
+          <include name="sucecssfullyCopyFromInsideSurveyWithNotMappedDefaultMCQ"/>
+          <include name="sucecssfullyCopyFromInsideSurveyWithAllQuesitonMappingsManyLanguages"/>
+          <include name="successfullyDisplayWarningMessageDuplicatedFreeTextQuestionMappingsDifferentPages"/>
+          <include name="sucecssfullyCopyAndEditFromInsideSurveyWithAllQuesitonMappingsManyPages"/>
+          <include name="unsuccessfullyDisplayMappedSurveyIndicatorWhenSurveyIsNotSaved"/>
+          <include name="successfullyDisplayMappedFreeTextQuestionsIndicatorWhenSavingSurvey"/>
+          <include name="unsuccessfullyDisplayNotMappedFreeTextQuestionsIndicatorWithoutSavingSurvey"/>
+          <include name="ussuccessfullyCreatedSurveyWhenLastNameIsNotMappedAndClickSaveButtonAndContinue"/>
+          <include name="successfullyRetainSurveyMappingsAndQuestionContentThreeAdditionalLanguagePages"/>
+          <include name="successfullyUpdateAndVerifySurveyMappings"/>
+          <include name="sucecssfullyCopyAndEditFromOutsideSurveyWithNotMappedDefaultFTQandMCQ"/>
+          <include name="sucecssfullyCopyAndEditFromInsideSurveyWithAllQuesitonMappings"/>
+          <include name="sucecssfullyCopyAndEditFromInsideSurveyWithAllQuesitonMappingsManyLanguages"/>
+          <include name="sucecssfullyCopyAndEditFromInsideSurveyWithNotMappedDefaultMCQ"/>
+          <include name="successfullyDisplayMappedSurveyIndicatorTextWhenHoverInteractionFolderSelected"/>
+          <include name="successfullyKeppAllSurveyMappingsAfterMaintenanceJobExecution"/>
+          <include name="sucecssfullyCopyAndEditFromInsideSurveyWithNotMappedDefaultFTQ"/>
+          <include name="successfullyDisplayMappedFreeTextQuestionsIndicatorWithoutSavingSurvey"/>
+          <include name="successfullyDisplayMappedFreeTextQuestionsIndicatorOtherLanguagePages"/>
+          <include name="successfullyRetainSurveyMappingsAndQuestionContentAdditionalLanguagePages"/>
+          <include name="sucecssfullyCopyAndEditFromOutsideSurveyWithAllQuesitonMappingsManyLanguages"/>
+          <include name="successfullyDisplayMappedSurveyIndicatorWhenSurveyIsSaved"/>
+          <include name="unsuccessfullyDisplayNotMappedMultipleChoiceQuestionsIndicatorOtherLanguagePages"/>
+          <include name="unsuccessfullyDisplayNotMappedFreeTextQuestionsIndicatorOtherLanguagePages"/>
+          <include name="unsuccessfullyCreatedSurveyWhenEmailIsNotMappedAndClickSaveAndContinueButton"/>
+          <include name="ussuccessfullyCreatedSurveyWhenLastNameIsNotMappedAndClickSaveButton"/>
+          <include name="sucecssfullyCopyFromOutsideSurveyWithAllQuesitonMappings"/>
+          <include name="successfullyRetainingFieldMapping"/>
+          <include name="sucecssfullyCopyAndEditFromOutsideSurveyWithNotMappedDefaultFTQ"/>
+          <include name="successfullyDisplayMappedSurveyIndicatorWhenSurveyRecordIsDeleted"/>
+          <include name="successfullyDisplayMappedMultipleChoiceQuestionsIndicatorWhenSavingSurvey"/>
+          <include name="successfullyDisplayMappedSurveyIndicatorsWhenSortingRecords"/>
+          <include name="successfullyRetainContactFieldsWithBackslash"/>
+          <include name="unsuccessfullyCreatedSurveyWhenEmailIsNotMappedAndClickSaveButton"/>
+          <include name="sucecssfullyCopyFromInsideSurveyWithNotMappedDefaultFTQ"/>
+          <include name="sucecssfullyCopyFromOutsideSurveyWithNotMappedDefaultMCQ"/>
+        </methods>
+      </class> <!-- concep.selenium.iaConnector.SurveyCreation -->
+      <class name="concep.selenium.iaConnector.ConnectionPage">
+        <methods>
+          <include name="cleanup"/>
+          <include name="beforeClassSetUP"/>
+          <include name="startSelenium"/>
+        </methods>
+      </class> <!-- concep.selenium.iaConnector.ConnectionPage -->
+      <class name="concep.selenium.iaConnector.SurveyCompletion">
+        <methods>
+          <include name="successfullyCompletedSurveyWithEmailConfirmation"/>
+          <include name="successfullyCompletedSurveyWithLoginAs"/>
+          <include name="successfullyCompletedSurveyWithPageJumping"/>
+          <include name="successfullyLogHighestIDQuestionEnteredValueToCrmDuplicatedQuestionMappingsSamePageAndTwoNotMappedMCQCampaignResponses"/>
+          <include name="cleanup"/>
+          <include name="successfullyCompletedSurveyWith10Pages"/>
+          <include name="successfullyCompleteSurveyWithOneMappedMCQAndMCQMappedOnlyToCampaignResponse"/>
+          <include name="beforeClassSetUP"/>
+          <include name="startSelenium"/>
+          <include name="successfullyCompleteSurveyWithNotMappedMCQOnlyMappedToCampaignResponse"/>
+          <include name="successfullyCompletedSurveyWith10MappedQuestions"/>
+        </methods>
+      </class> <!-- concep.selenium.iaConnector.SurveyCompletion -->
+      <class name="concep.selenium.iaConnector.CampaignSending">
+        <methods>
+          <include name="successfullyLogActivitiesRegardingFolderQaNoSponsorContactOnly"/>
+          <include name="successfullyLogActivitiesRegardingContactQaAdminBothContactAndCompany"/>
+          <include name="successfullyLogActivitiesRegardingFolderQaWorkingList"/>
+          <include name="successfullyLogActivitiesAgainstContactByExistingLongIDAndExistingEmail"/>
+          <include name="successfullySentCampaignToOneGroup"/>
+          <include name="cleanup"/>
+          <include name="successfullySentCampaignToMoreThanOneRecipients"/>
+          <include name="successfullySentCampaignToMoreThanOneGroups"/>
+          <include name="unsuccessfullyLogActivitiesAgainstContactByNotExistingSplitLongIdAndEmail"/>
+          <include name="successfullyLogActivitiesAgainstContactByExistingSplitShortIDAndExistingEmail"/>
+          <include name="unsuccessfullyLogActivitiesAgainstContactWithBlankIdFieldAndNotExistingEmail"/>
+          <include name="successfullyLogActivitiesWhenSendingCampaignToMoreThanOneExistingContactAndManyNotExisting"/>
+          <include name="successfullyLogActivitiesAgainstContactByNotExistingShortIdButExistingEmail"/>
+          <include name="successfullyLogActivitiesRegardingFolderQaMListSponsorContactAndCompany"/>
+          <include name="successfullyLogActivitiesRegardingContactQaMListNoSponsorContactAndCompany"/>
+          <include name="successfullyLogActivitiesAgainstContactByInvalidIdButExistingEmail"/>
+          <include name="successfullyLogActivitiesRegardingFolderQaSponsorContactOnly"/>
+          <include name="successfullyLogActivitiesWhenSendingCampaignToOneExistingContactAndManyNotExisting"/>
+          <include name="unsuccessfullyLogActivitiesAgainstContactByInvalidIdAndNotExistingEmail"/>
+          <include name="successfullyLogActivitiesAgainstContactByNotExistingLongIdButExistingEmail"/>
+          <include name="successfullyLogActivitiesRegardingContactQaWorkingList"/>
+          <include name="successfullySentCampaignToOneRecipient"/>
+          <include name="successfullyLogActivitiesAgainstContactByNotExistingSplitLongIdButExistingEmailTwoTimes"/>
+          <include name="successfullyLogActivitiesAgainstContactWhenDoesNotHaveRelatedCompanyAndFeatureDisabled"/>
+          <include name="unsuccessfullyLogActivitiesAgainstContactByNotExistingShortIdAndEmail"/>
+          <include name="successfullyLogActivitiesAgainstContactByExistingSplitLongIDAndExistingEmail"/>
+          <include name="successfullyLogActivitiesAgainstContactByExistingSplitShortIDAndNotExistingEmail"/>
+          <include name="successfullyLogActivitiesAgainstContactByExistingSplitShortIDAndExistingSameEmail"/>
+          <include name="successfullyLogActivitiesAgainstContactByNotExistingSplitShortIdButExistingEmail"/>
+          <include name="successfullyLogActivitiesAgainstContactByExistingSplitLongIDAndNotExistingEmail"/>
+          <include name="successfullyLogActivitiesAgainstContactByExistingLongIDAndNotExistingEmail"/>
+          <include name="successfullyLogActivitiesAgainstContactByExistingSplitLongIDAndExistingSameEmail"/>
+          <include name="successfullyLogActivitiesAgainstContactByInvalidIdButExistingEmailTwice"/>
+          <include name="successfullyLogActivitiesRegardingFolderQaMListNoSponsorContactAndCompany"/>
+          <include name="successfullyLogActivitiesAgainstContactByExistingShortIDAndExistingEmail"/>
+          <include name="unsuccessfullyLogActivitiesAgainstContactByNotExistingLongIdAndEmail"/>
+          <include name="successfullyLogActivitiesAgainstContactWithBlankIdFieldButExistingEmailTwoTimes"/>
+          <include name="successfullyLogActivitiesRegardingFolderQaAdminContactOnly"/>
+          <include name="successfullyLogActivitiesAgainstContactByNotExistingLongIdButExistingEmailTwoTimes"/>
+          <include name="successfullyLogActivitiesAgainstContactOnlyWhenRelatedCompanySourcedInFirmCompaniesAndFeatureDisabled"/>
+          <include name="successfullyLogActivitiesRegardingContactQaMListSponsorContactAndCompany"/>
+          <include name="successfullyLogActivitiesAgainstContactByNotExistingShortIdButExistingEmailTwoTimes"/>
+          <include name="unsuccessfullyLogActivitiesAgainstContactByNotExistingSplitShortIdAndEmail"/>
+          <include name="successfullyLogActivitiesAgainstContactByExistingShortIDAndExistingSameEmail"/>
+          <include name="successfullyLogActivitiesAgainstContactByExistingLongIDAndExistingSameEmail"/>
+          <include name="successfullyLogActivitiesAgainstContactOnlyWhenRelatedCompanyNotSourcedInFirmCompaniesAndFeatureDisabled"/>
+          <include name="successfullyLogActivitiesAgainstContactByExistingShortIDAndNotExistingEmail"/>
+          <include name="successfullyLogActivitiesRegardingFolderQaAdminBothContactAndCompany"/>
+          <include name="successfullyLogActivitiesAgainstContactWithBlankIdFieldButExistingEmail"/>
+          <include name="successfullyLogActivitiesAgainstContactByNotExistingSplitShortIdButExistingEmailTwoTimes"/>
+          <include name="successfullyLogActivitiesAgainstContactByNotExistingSplitLongIdButExistingEmail"/>
+        </methods>
+      </class> <!-- concep.selenium.iaConnector.CampaignSending -->
+    </classes>
+  </test> <!-- IA Connector v1.1 Surveys - All Tests(failed) -->
+</suite> <!-- Failed suite [IA Connector v1.1 Surveys - All Tests] -->

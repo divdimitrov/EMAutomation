@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="All Dynamics Connector Function Tests ">
+    <test name="All Dynamics Connector Function Tests">
+        <groups>
+            <run>
+                <include name="all-tests"/>
+                <exclude name="open-defects"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="concep.selenium.dynamicConnector.*"/>
+        </packages>
+    </test>
+</suite>

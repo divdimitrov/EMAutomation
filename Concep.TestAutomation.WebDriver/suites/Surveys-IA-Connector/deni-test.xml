@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="IA Connector v1.1 Surveys - TestDeni">
+    <test name="IA Connector v1.1 Surveys - testDeni">
+        <groups>
+            <run>
+                <include name="testDeni"/>
+                <exclude name="open-defects"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="concep.selenium.iaConnector.*"/>
+        </packages>
+    </test>
+</suite>

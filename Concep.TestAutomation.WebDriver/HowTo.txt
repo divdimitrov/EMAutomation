@@ -1,0 +1,99 @@
+
+------------------------------------------------------------------------------------------------------------
+--------------- How to execute automation tests command line and from Eclipse						---------------------
+-------------------------------------------------------------------------------------------------------------
+*
+author - Various People 
+*
+
+1. Prerequisites: The following installation and configurations have to be done on the test executor computer: 
+
+-  JDK and ANT tools have to be installed. JAVA_HOME and ANT_HOME environment variables have to be configured.
+-  Firefox 23.0.* have to be installed. Disable Firefox automatic updates. 
+
+Note: The selenium framework is related to particular firefox version, so when there is a new selenium version, 
+selenium framework and firefox browser have to be updated.
+
+2. Steps to execute automation tests command line:
+
+	2.1 Checkout the 'Concep.TestAutomation' project from Mercurial repository http://10.201.10.70:8888/Concep.TestAutomation/
+	
+	2.2 Go to ../Concep.TestAutomation/test-data directory and extract the FirefoxProfile.rar in some local directory ( ex C:\FirefoxProfile).
+	
+	2.3 Open a windows console and go to ../Concep.TestAutomation/lib directory.
+
+	2.4	Start the selenium server with the specific firefox profile, using the command bellow:
+
+/---------------------------------------------------------------------------------------------------------------------------/
+/                                                                                                                           /
+/  ~/Concep.TestAutomation/lib> java -jar selenium-server-standalone-2.46.0.jar -firefoxProfileTemplate C:\FirefoxProfile   /
+/                                                                                                                           /     
+/---------------------------------------------------------------------------------------------------------------------------/
+
+    2.5 Executing the test suit using IE: 
+/-----------------------------------------------------------------------------------------------------------------------------------------------/
+/                                                                                                                                               /
+/  ~/Concep.TestAutomation/lib> java -jar selenium-server-standalone-2.46.0.jar  -Dwebdriver.ie.driver=C:\java\IEStandalone\IEDriverServer.exe  /
+/                                                                                                                                               /     
+/-----------------------------------------------------------------------------------------------------------------------------------------------/
+    Note: make sure that all the zones have to be with a enable protected mode on. 
+    
+
+	Note: The default port used by selenium server is 4444, if this port is not free use the '-port' option to specify some other port.
+ 
+	2.6 Open a second console, go to directory where the project is checked out, and run the ant 'run-test' target from the project build 
+	script to execute a test suite using the following properties:
+
+	-Dtest.suite=<suite-name> - specify which test suite to execute from project suites directory
+	-Dselenium.config.location=<proeprties file name> - specify which configuration file to use from config directory
+
+See examples bellow:
+ 
+	2.7 If the test suite is not specified, the default 'msdsurveys-smoke-tests' suite will be executed using the following command:
+	
+/------------------------------------------------------------------------------------/
+/                                                                                    /
+/ > ant run-test -Dconfig.path=config/firefox.local        /
+/                                                                                    /     
+/------------------------------------------------------------------------------------/
+
+Notes:
+1. With the above command firefox.config.properties file from 'config' directory will be used and msdsurveys-smoke-tests suite will be executed. 
+2. Before test execution you can modify firefox.config.properties to point to your env. 
+
+	2.8 You can specify which test suite from suites directory to execute by -Dtest.suite property with the following command:
+	
+/---------------------------------------------------------------------------------------------------------	/
+/                                                                                    						/
+/ > ant run-test -Dtest.suite=msdsurveys-all-tests -Dconfig.path=config/firefox.local  /
+/                                                                                    						/     
+/-------------------------------------------------------------------------------------------------------	/
+	 
+Note: With the above command the 'msdsurveys-all-tests' suite will be executed using configuration file from the 'config' directory.
+
+
+ 	2.8 You can create your configuration file using as a template the config file 
+ 	'firefox.config.properties' from config directory and use it when execute the test suites:
+	
+/------------------------------------------------------------------------------------------------------------	  /
+/                                                                                    				     		  /
+/ > ant run-test -Dtest.suite=all-tests -Dconfig.path=config/firefox.local   /
+/                                                                                    						      /     
+/-----------------------------------------------------------------------------------------------------------	  /
+	 
+Note: With the above command the 'msdsurveys-tests' suite will be executed using configuration file myconfigfile.firefox.config.properties
+which has to be created in 'config' directory.
+	
+	
+	    *********Test results*********
+	    
+	    After test execution finishes, the test results and report are created in the /selenium/target/test-output directory
+
+3. Steps to execute automation tests via Eclipse 
+	
+	3.1 Configure firefox.config.properties file to point to environment used for the test execution.
+	3.2 You can start some of the testng suites as TestNG suite by selecting <test suite name>, right click -> 
+	select ‘Run As’ -> click ‘1 TestNG Suite’ option.
+	3.3 You can start 1 test case by selecting the test case (method name), right click -> select ‘Run As’ ->  ‘1 TestNG Test’ option.
+
+Note: TestNG Eclipse plugin has to be installed. 

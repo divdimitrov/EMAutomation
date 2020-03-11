@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="Concep.TestAutomation.WebDriver" basedir="." default="all">
+
+	<property name="work.dir" value="${basedir}/.." />
+	<property name="lib.dir" value="${basedir}/lib" />
+	<property name="src.dir" value="${basedir}/src" />
+	<property name="config.dir" value="${basedir}/config" />
+	<property name="build.dir" value="target" />
+	<property name="classes.dir" value="${build.dir}/classes" />	
+	<property name="suites.dir" value="${basedir}/suites" />
+	<property name="testng.path" value="${basedir}/lib/testng.jar" />
+
+
+	<!-- test run propertiess-->
+	<property file="${basedir}/config/firefox.config.properties" />
+	<property name="testreport.dir" value="${build.dir}/test-output" />
+	<property name="screenshots.dir" value="${build.dir}/screenshots" />
+
+	<path id="build.classpath">
+		<fileset dir="${lib.dir}" includes="**/*.jar" />
+		<fileset dir="${src.dir}/concep/selenium/core" includes="**/*.java" />
+	</path>
+
+	<path id="runtime.classpath">
+		<fileset dir="${lib.dir}" includes="**/*.jar" />
+		<pathelement location="${config.dir}" />
+		<pathelement location="${suites.dir}" />
+		<pathelement location="${classes.dir}" />
+	</path>
+
+	<target name="clean" description="Delete the build directory.">
+		<!-- Delete the ${build} and ${testreport.dir} directories trees -->
+		<delete dir="${build.dir}" />
+	</target>
+
+	<target name="init" depends="clean" description="Create build directories.">
+		<!--Create the build directory structure used by compile -->
+		<mkdir dir="${build.dir}" />
+		<mkdir dir="${classes.dir}" />
+		<mkdir dir="${testreport.dir}" />
+		<mkdir dir="${screenshots.dir}" />
+	</target>
+
+	<target name="compile" depends="init" description="Compile tests.">
+		<!-- Compile the java code from ${src} into ${classes.dir} -->
+		<javac srcdir="${src.dir}" destdir="${classes.dir}" classpathref="build.classpath" debug="true" includeantruntime="false"/>
+	</target>
+
+	<target name="run-test" depends="compile" description="Run test suite.">
+		<!-- Run a testng suite-->
+		<taskdef resource="testngtasks" classpath="${testng.path}" />
+
+		<testng classpathref="runtime.classpath" outputDir="${testreport.dir}" haltonfailure="true" verbose="5">
+			<xmlfileset dir="${suites.dir}" includes="${test.suite}" />
+			<sysproperty key="config" value="${config.path}"/>
+			<sysproperty key="iaResults" value="${ia.results}"/>
+		</testng>
+	</target>
+
+	<target name="all" depends="run-test" description="Executes all targets." />
+	
+		
+		<target name="all-debug" description="outputs all vars in use.">
+  <!-- useful to diagnose runtime problems -->
+  
+  
+       
+       <echo message="'work.dir' = '${basedir}/..'"/>
+       <echo message="'lib.dir' = '${basedir}/lib'"/>
+       <echo message="'src.dir' = '${basedir}/src'"/>
+       <echo message="'config.dir' = '${basedir}/config'"/>
+       <echo message="'build.dir' = 'target'"/>
+       <echo message="'classes.dir' = '${build.dir}/classes'"/>
+       <echo message="'suites.dir' = '${basedir}/suites'"/>
+       <echo message="'testng.path' = '${basedir}/lib/testng.jar'"/>
+     </target>
+
+</project>

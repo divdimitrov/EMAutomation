@@ -1,0 +1,85 @@
+url=http://staging.campaigner.concep.com
+
+seleniumServerHost=http://localhost:9515
+seleniumBrowserType = chrome
+seleniumBrowserTypeDynamics = chrome
+
+timeOut=10
+negativeTimeOut=5
+ajaxTimeOut=100
+pageLoadTimeOut=200
+
+
+
+adminPanelURL = https://euromaster.sn77.net/admin
+superAdminUsername = euromaster_b2b_platform_team@stanga.net
+superAdminPassword = q1w2e3r4
+
+wrongUsername = wrong_email@test.com
+wrongPassword = Wrongpassword123
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+preferenceManagerUrlPassEnabled = https://preferencemanager-automation-qa.concep.com/preferences/key/Login
+preferenceManagerUrlPassDisabled = https://preferencemanager-automation-qa.concep.com/preferences/keynp/Login
+preferenceManagerDirectlyLoginPassDisabled = https://preferencemanager-automation-qa.concep.com/preferences/key1/preference
+preferenceManagerDirectlyLoginPassEnabled = https://preferencemanager-automation-qa.concep.com/preferences/key/preference
+preferenceManagerChangeableEmail = https://preferencemanager-automation-qa.concep.com/preferences/key/Login
+
+
+registeredSubscriberEmail = k_registeredWithPass@mailinator.com
+registeredSubscriberEmailPassEnabled = k_registeredWithPass@mailinator.com
+registeredSubscriberEmailNotUpdateUserData = k_notUpdate@mailinator.com
+registeredSubscriberEmailPassDisabled = k_registeredNP@mailinator.com
+registeredSubscriberPassword = qwerty12
+
+registeredSubscriberEmailOnlyInPM = k_onlyInPM@yopmail.com
+registeredUserOnlyInPM = samoVPM@mailinator.com
+registeredUserInPMAndHaveContact = inPMandContact@mailinator.com
+registeredUserInPMExistingAndContact = inPMStatusExistingandContact@mailinator.com
+registeredUserInPMExistingStatus = AtPMOnlyExisting@mailinator.com
+inactiveContactEmail = inactiveContact@mailinator.com
+emailOnlyInPM = onlyInPMEmail@yopmail.com
+emailOnlyInPMConfirmed = onlyInPMConfirmed@mailinator.com
+onlyContactEmail = onlyContact@mailinator.com
+duplicateContactEmail = duplicateContact@mailinator.com
+duplicateLeadEmail = duplicateLead@mailinator.com
+
+registeredSubscriberEmailChangeableEmail = k_2311@yopmail.com
+registeredSubscriberEmailChangeableEmailNotChangeIt = k_changeableNew01@yopmail.com
+
+
+dynamicsConnectionURL = https://Demo_BDP:Concep2014!@msd13.concep.com/   https://PM-Automation:Concep2019!!@msd13.concep.com/concep3/
+dynamicsConnectionUsername = Demo_BDP
+dynamicsConnectionPassword = Concep2014!

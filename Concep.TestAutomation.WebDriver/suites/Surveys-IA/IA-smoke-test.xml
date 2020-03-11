@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="IA Smoke Test">
+    <test name="IA Smoke Test">
+        <groups>
+            <run>
+                <include name="smoke-tests"/>
+                <exclude name="open-defects"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="concep.selenium.ia.*"/>
+        </packages>
+    </test>
+</suite>

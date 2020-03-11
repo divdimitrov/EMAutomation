@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [IA Connector v1.1 Campaigns - All Tests]">
+  <test name="IA Connector v1.1 Campaigns - All Tests(failed)">
+    <groups>
+      <run>
+        <include name="campaigns-all"/>
+        <exclude name="open-defects"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="concep.selenium.iaConnector.CampaignCreation">
+        <methods>
+          <include name="successfullySaveCampaignWithDifferentRegardingDropdownOptionsSaveButton"/>
+          <include name="successfullyRetainCampaignValuesByNavigatingBackToContentFromPreviewSendThroughRecipientsPage"/>
+          <include name="successfullySaveRegardingDropdownValueWhenNoSubjectValidationTriggered"/>
+          <include name="beforeClassSetUp"/>
+          <include name="successfullySelectDifferentRegardingDropdownOptions"/>
+          <include name="successfullySaveCampaignWithDifferentRegardingDropdownOptionsSaveAndContinueButton"/>
+          <include name="unsuccessfullyAccessCampaignForEditingAfterSending"/>
+          <include name="cleanup"/>
+          <include name="successfullyDeleteNotMappedCampaignToRegardingFolder"/>
+          <include name="successfullyEditCampaignByPressingSaveAndContinueToRecipients"/>
+          <include name="startSelenium"/>
+          <include name="successfullyDisplayRegardingDropdownOption"/>
+          <include name="successfullyRetainCampaignValuesByNavigatingBackToContentFromPreviewAndSendPage"/>
+          <include name="successfullySelectCampaignTemplate"/>
+          <include name="successfullyEditCampaignByPressingSaveButton"/>
+          <include name="successfullyRetainCampaignValuesByNavigatingBackToContentFromRecipientsPage"/>
+        </methods>
+      </class> <!-- concep.selenium.iaConnector.CampaignCreation -->
+      <class name="concep.selenium.iaConnector.CampaignSending">
+        <methods>
+          <include name="successfullyLogActivitiesRegardingFolderQaNoSponsorContactOnly"/>
+          <include name="successfullyLogActivitiesRegardingContactQaAdminBothContactAndCompany"/>
+          <include name="successfullyLogActivitiesRegardingFolderQaWorkingList"/>
+          <include name="successfullyLogActivitiesAgainstContactByExistingLongIDAndExistingEmail"/>
+          <include name="successfullySentCampaignToOneGroup"/>
+          <include name="cleanup"/>
+          <include name="successfullySentCampaignToMoreThanOneRecipients"/>
+          <include name="successfullySentCampaignToMoreThanOneGroups"/>
+          <include name="unsuccessfullyLogActivitiesAgainstContactByNotExistingSplitLongIdAndEmail"/>
+          <include name="successfullyLogActivitiesAgainstContactByExistingSplitShortIDAndExistingEmail"/>
+          <include name="unsuccessfullyLogActivitiesAgainstContactWithBlankIdFieldAndNotExistingEmail"/>
+          <include name="successfullyLogActivitiesWhenSendingCampaignToMoreThanOneExistingContactAndManyNotExisting"/>
+          <include name="successfullyLogActivitiesAgainstContactByNotExistingShortIdButExistingEmail"/>
+          <include name="successfullyLogActivitiesRegardingFolderQaMListSponsorContactAndCompany"/>
+          <include name="successfullyLogActivitiesRegardingContactQaMListNoSponsorContactAndCompany"/>
+          <include name="successfullyLogActivitiesAgainstContactByInvalidIdButExistingEmail"/>
+          <include name="successfullyLogActivitiesRegardingFolderQaSponsorContactOnly"/>
+          <include name="successfullyLogActivitiesWhenSendingCampaignToOneExistingContactAndManyNotExisting"/>
+          <include name="unsuccessfullyLogActivitiesAgainstContactByInvalidIdAndNotExistingEmail"/>
+          <include name="successfullyLogActivitiesAgainstContactByNotExistingLongIdButExistingEmail"/>
+          <include name="successfullyLogActivitiesRegardingContactQaWorkingList"/>
+          <include name="successfullySentCampaignToOneRecipient"/>
+          <include name="successfullyLogActivitiesAgainstContactByNotExistingSplitLongIdButExistingEmailTwoTimes"/>
+          <include name="successfullyLogActivitiesAgainstContactWhenDoesNotHaveRelatedCompanyAndFeatureDisabled"/>
+          <include name="unsuccessfullyLogActivitiesAgainstContactByNotExistingShortIdAndEmail"/>
+          <include name="successfullyLogActivitiesAgainstContactByExistingSplitLongIDAndExistingEmail"/>
+          <include name="successfullyLogActivitiesAgainstContactByExistingSplitShortIDAndNotExistingEmail"/>
+          <include name="successfullyLogActivitiesAgainstContactByExistingSplitShortIDAndExistingSameEmail"/>
+          <include name="successfullyLogActivitiesAgainstContactByNotExistingSplitShortIdButExistingEmail"/>
+          <include name="successfullyLogActivitiesAgainstContactByExistingSplitLongIDAndNotExistingEmail"/>
+          <include name="successfullyLogActivitiesAgainstContactByExistingLongIDAndNotExistingEmail"/>
+          <include name="successfullyLogActivitiesAgainstContactByExistingSplitLongIDAndExistingSameEmail"/>
+          <include name="successfullyLogActivitiesAgainstContactByInvalidIdButExistingEmailTwice"/>
+          <include name="successfullyLogActivitiesRegardingFolderQaMListNoSponsorContactAndCompany"/>
+          <include name="successfullyLogActivitiesAgainstContactByExistingShortIDAndExistingEmail"/>
+          <include name="unsuccessfullyLogActivitiesAgainstContactByNotExistingLongIdAndEmail"/>
+          <include name="successfullyLogActivitiesAgainstContactWithBlankIdFieldButExistingEmailTwoTimes"/>
+          <include name="successfullyLogActivitiesRegardingFolderQaAdminContactOnly"/>
+          <include name="successfullyLogActivitiesAgainstContactByNotExistingLongIdButExistingEmailTwoTimes"/>
+          <include name="successfullyLogActivitiesAgainstContactOnlyWhenRelatedCompanySourcedInFirmCompaniesAndFeatureDisabled"/>
+          <include name="successfullyLogActivitiesRegardingContactQaMListSponsorContactAndCompany"/>
+          <include name="successfullyLogActivitiesAgainstContactByNotExistingShortIdButExistingEmailTwoTimes"/>
+          <include name="unsuccessfullyLogActivitiesAgainstContactByNotExistingSplitShortIdAndEmail"/>
+          <include name="successfullyLogActivitiesAgainstContactByExistingShortIDAndExistingSameEmail"/>
+          <include name="successfullyLogActivitiesAgainstContactByExistingLongIDAndExistingSameEmail"/>
+          <include name="successfullyLogActivitiesAgainstContactOnlyWhenRelatedCompanyNotSourcedInFirmCompaniesAndFeatureDisabled"/>
+          <include name="successfullyLogActivitiesAgainstContactByExistingShortIDAndNotExistingEmail"/>
+          <include name="successfullyLogActivitiesRegardingFolderQaAdminBothContactAndCompany"/>
+          <include name="successfullyLogActivitiesAgainstContactWithBlankIdFieldButExistingEmail"/>
+          <include name="successfullyLogActivitiesAgainstContactByNotExistingSplitShortIdButExistingEmailTwoTimes"/>
+          <include name="successfullyLogActivitiesAgainstContactByNotExistingSplitLongIdButExistingEmail"/>
+        </methods>
+      </class> <!-- concep.selenium.iaConnector.CampaignSending -->
+    </classes>
+  </test> <!-- IA Connector v1.1 Campaigns - All Tests(failed) -->
+</suite> <!-- Failed suite [IA Connector v1.1 Campaigns - All Tests] -->

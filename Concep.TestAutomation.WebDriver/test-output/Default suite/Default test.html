@@ -1,0 +1,182 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 11 17:55:24 EET 2020</td>
+</tr>
+<tr><td>Total time:</td><td>63 seconds (63258 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='em.selenium.automation.AdminLandingPageTests.successfullyAccessAdminLandingPage()'><b>successfullyAccessAdminLandingPage</b><br>Test class: em.selenium.automation.AdminLandingPageTests<br/>
+<a href="#Output-1073741635" onClick='toggleBox("Output-1073741635", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1073741635" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1073741635">
+<h2>Verify that user can successfully access Admin landing page</h2><br/>
+<ol type='1'><br/>
+<li>Navigate to the Admin Panel landing page...<b><font color='green'>OK</font></b></li><br/>
+</ol><br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>em.selenium.automation.AdminLandingPageTests@58d75e99</td></tr>
+<tr>
+<td title='em.selenium.automation.AdminLandingPageTests.successfullyCheckRememberMeCheckbox()'><b>successfullyCheckRememberMeCheckbox</b><br>Test class: em.selenium.automation.AdminLandingPageTests<br/>
+<a href="#Output-353023213" onClick='toggleBox("Output-353023213", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-353023213" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-353023213">
+<h2>Verify customer successfully check remember me checkbox</h2><br/>
+<ol type='1'><br/>
+<li>Navigate to the Admin Panel landing page...<b><font color='green'>OK</font></b></li><br/>
+<li>Type 'euromaster_b2b_platform_team@stanga.net' in the 'Email' input field...<b><font color='green'>OK</font></b></li><br/>
+<li>Click on 'Remember me' checkbox...<b><font color='green'>OK</font></b></li><br/>
+<li>Click on 'Remember me' checkbox...<b><font color='green'>OK</font></b></li><br/>
+</ol><br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>em.selenium.automation.AdminLandingPageTests@58d75e99</td></tr>
+<tr>
+<td title='em.selenium.automation.AdminLandingPageTests.successfullyDisplayErrorWhenWrongPasswordIsEntered()'><b>successfullyDisplayErrorWhenWrongPasswordIsEntered</b><br>Test class: em.selenium.automation.AdminLandingPageTests<br/>
+<a href="#Output-2052223881" onClick='toggleBox("Output-2052223881", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2052223881" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2052223881">
+<h2>Verify that error is thrown when wrong password is entered</h2><br/>
+<ol type='1'><br/>
+<li>Navigate to the Admin Panel landing page...<b><font color='green'>OK</font></b></li><br/>
+<li>Type 'euromaster_b2b_platform_team@stanga.net' in the 'Email' input field...<b><font color='green'>OK</font></b></li><br/>
+<li>Type 'Wrongpassword123' in the 'Password' input field...<b><font color='green'>OK</font></b></li><br/>
+<li>Click on 'Login' button...<b><font color='green'>OK</font></b></li><br/>
+</ol><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>em.selenium.automation.AdminLandingPageTests@58d75e99</td></tr>
+<tr>
+<td title='em.selenium.automation.AdminLandingPageTests.successfullyDisplayErrorWhenWrongUsernameIsEntered()'><b>successfullyDisplayErrorWhenWrongUsernameIsEntered</b><br>Test class: em.selenium.automation.AdminLandingPageTests<br/>
+<a href="#Output-1523649562" onClick='toggleBox("Output-1523649562", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1523649562" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1523649562">
+<h2>Verify that error is thrown when wrong username is entered</h2><br/>
+<ol type='1'><br/>
+<li>Navigate to the Admin Panel landing page...<b><font color='green'>OK</font></b></li><br/>
+<li>Type 'wrong_email@test.com' in the 'Email' input field...<b><font color='green'>OK</font></b></li><br/>
+<li>Type 'q1w2e3r4' in the 'Password' input field...<b><font color='green'>OK</font></b></li><br/>
+<li>Click on 'Login' button...<b><font color='green'>OK</font></b></li><br/>
+</ol><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>em.selenium.automation.AdminLandingPageTests@58d75e99</td></tr>
+<tr>
+<td title='em.selenium.automation.AdminLandingPageTests.successfullyDisplayMessagesThatEmailAnPasswordFieldsAreRequired()'><b>successfullyDisplayMessagesThatEmailAnPasswordFieldsAreRequired</b><br>Test class: em.selenium.automation.AdminLandingPageTests<br/>
+<a href="#Output-1244880808" onClick='toggleBox("Output-1244880808", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1244880808" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1244880808">
+<h2>Verify that error is thrown when no email and password is entered</h2><br/>
+<ol type='1'><br/>
+<li>Navigate to the Admin Panel landing page...<b><font color='green'>OK</font></b></li><br/>
+<li>Click on 'Login' button...<b><font color='green'>OK</font></b></li><br/>
+</ol><br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>em.selenium.automation.AdminLandingPageTests@58d75e99</td></tr>
+<tr>
+<td title='em.selenium.automation.AdminLandingPageTests.successfullyLoginInAdminPanelWithCorrectCredentials()'><b>successfullyLoginInAdminPanelWithCorrectCredentials</b><br>Test class: em.selenium.automation.AdminLandingPageTests<br/>
+<a href="#Output-464649704" onClick='toggleBox("Output-464649704", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-464649704" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-464649704">
+<h2>Verify that user can successfully login in Admin with correct credentials</h2><br/>
+<ol type='1'><br/>
+<li>Navigate to the Admin Panel landing page...<b><font color='green'>OK</font></b></li><br/>
+<li>Type 'euromaster_b2b_platform_team@stanga.net' in the 'Email' input field...<b><font color='green'>OK</font></b></li><br/>
+<li>Type 'q1w2e3r4' in the 'Password' input field...<b><font color='green'>OK</font></b></li><br/>
+<li>Click on 'Login' button...<b><font color='green'>OK</font></b></li><br/>
+</ol><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>em.selenium.automation.AdminLandingPageTests@58d75e99</td></tr>
+</table><p>
+</body>
+</html>

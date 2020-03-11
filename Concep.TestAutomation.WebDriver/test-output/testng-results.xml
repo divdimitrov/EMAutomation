@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<h2>Verify that user can successfully access Admin landing page</h2>]]>
+    </line>
+    <line>
+      <![CDATA[<ol type='1'>]]>
+    </line>
+    <line>
+      <![CDATA[<li>Navigate to the Admin Panel landing page...<b><font color='green'>OK</font></b></li>]]>
+    </line>
+    <line>
+      <![CDATA[</ol>]]>
+    </line>
+    <line>
+      <![CDATA[<h2>Verify customer successfully check remember me checkbox</h2>]]>
+    </line>
+    <line>
+      <![CDATA[<ol type='1'>]]>
+    </line>
+    <line>
+      <![CDATA[<li>Navigate to the Admin Panel landing page...<b><font color='green'>OK</font></b></li>]]>
+    </line>
+    <line>
+      <![CDATA[<li>Type 'euromaster_b2b_platform_team@stanga.net' in the 'Email' input field...<b><font color='green'>OK</font></b></li>]]>
+    </line>
+    <line>
+      <![CDATA[<li>Click on 'Remember me' checkbox...<b><font color='green'>OK</font></b></li>]]>
+    </line>
+    <line>
+      <![CDATA[<li>Click on 'Remember me' checkbox...<b><font color='green'>OK</font></b></li>]]>
+    </line>
+    <line>
+      <![CDATA[</ol>]]>
+    </line>
+    <line>
+      <![CDATA[<h2>Verify that error is thrown when wrong password is entered</h2>]]>
+    </line>
+    <line>
+      <![CDATA[<ol type='1'>]]>
+    </line>
+    <line>
+      <![CDATA[<li>Navigate to the Admin Panel landing page...<b><font color='green'>OK</font></b></li>]]>
+    </line>
+    <line>
+      <![CDATA[<li>Type 'euromaster_b2b_platform_team@stanga.net' in the 'Email' input field...<b><font color='green'>OK</font></b></li>]]>
+    </line>
+    <line>
+      <![CDATA[<li>Type 'Wrongpassword123' in the 'Password' input field...<b><font color='green'>OK</font></b></li>]]>
+    </line>
+    <line>
+      <![CDATA[<li>Click on 'Login' button...<b><font color='green'>OK</font></b></li>]]>
+    </line>
+    <line>
+      <![CDATA[</ol>]]>
+    </line>
+    <line>
+      <![CDATA[<h2>Verify that error is thrown when wrong username is entered</h2>]]>
+    </line>
+    <line>
+      <![CDATA[<ol type='1'>]]>
+    </line>
+    <line>
+      <![CDATA[<li>Navigate to the Admin Panel landing page...<b><font color='green'>OK</font></b></li>]]>
+    </line>
+    <line>
+      <![CDATA[<li>Type 'wrong_email@test.com' in the 'Email' input field...<b><font color='green'>OK</font></b></li>]]>
+    </line>
+    <line>
+      <![CDATA[<li>Type 'q1w2e3r4' in the 'Password' input field...<b><font color='green'>OK</font></b></li>]]>
+    </line>
+    <line>
+      <![CDATA[<li>Click on 'Login' button...<b><font color='green'>OK</font></b></li>]]>
+    </line>
+    <line>
+      <![CDATA[</ol>]]>
+    </line>
+    <line>
+      <![CDATA[<h2>Verify that error is thrown when no email and password is entered</h2>]]>
+    </line>
+    <line>
+      <![CDATA[<ol type='1'>]]>
+    </line>
+    <line>
+      <![CDATA[<li>Navigate to the Admin Panel landing page...<b><font color='green'>OK</font></b></li>]]>
+    </line>
+    <line>
+      <![CDATA[<li>Click on 'Login' button...<b><font color='green'>OK</font></b></li>]]>
+    </line>
+    <line>
+      <![CDATA[</ol>]]>
+    </line>
+    <line>
+      <![CDATA[<h2>Verify that user can successfully login in Admin with correct credentials</h2>]]>
+    </line>
+    <line>
+      <![CDATA[<ol type='1'>]]>
+    </line>
+    <line>
+      <![CDATA[<li>Navigate to the Admin Panel landing page...<b><font color='green'>OK</font></b></li>]]>
+    </line>
+    <line>
+      <![CDATA[<li>Type 'euromaster_b2b_platform_team@stanga.net' in the 'Email' input field...<b><font color='green'>OK</font></b></li>]]>
+    </line>
+    <line>
+      <![CDATA[<li>Type 'q1w2e3r4' in the 'Password' input field...<b><font color='green'>OK</font></b></li>]]>
+    </line>
+    <line>
+      <![CDATA[<li>Click on 'Login' button...<b><font color='green'>OK</font></b></li>]]>
+    </line>
+    <line>
+      <![CDATA[</ol>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-03-11T15:55:24Z" name="Default suite" finished-at="2020-03-11T15:56:27Z" duration-ms="63258">
+    <groups>
+      <group name="all-tests">
+        <method signature="AdminLandingPageTests.successfullyAccessAdminLandingPage()[pri:0, instance:em.selenium.automation.AdminLandingPageTests@58d75e99]" name="successfullyAccessAdminLandingPage" class="em.selenium.automation.AdminLandingPageTests"/>
+        <method signature="AdminLandingPageTests.successfullyCheckRememberMeCheckbox()[pri:0, instance:em.selenium.automation.AdminLandingPageTests@58d75e99]" name="successfullyCheckRememberMeCheckbox" class="em.selenium.automation.AdminLandingPageTests"/>
+        <method signature="AdminLandingPageTests.successfullyDisplayErrorWhenWrongPasswordIsEntered()[pri:0, instance:em.selenium.automation.AdminLandingPageTests@58d75e99]" name="successfullyDisplayErrorWhenWrongPasswordIsEntered" class="em.selenium.automation.AdminLandingPageTests"/>
+        <method signature="AdminLandingPageTests.successfullyDisplayErrorWhenWrongUsernameIsEntered()[pri:0, instance:em.selenium.automation.AdminLandingPageTests@58d75e99]" name="successfullyDisplayErrorWhenWrongUsernameIsEntered" class="em.selenium.automation.AdminLandingPageTests"/>
+        <method signature="AdminLandingPageTests.successfullyDisplayMessagesThatEmailAnPasswordFieldsAreRequired()[pri:0, instance:em.selenium.automation.AdminLandingPageTests@58d75e99]" name="successfullyDisplayMessagesThatEmailAnPasswordFieldsAreRequired" class="em.selenium.automation.AdminLandingPageTests"/>
+        <method signature="AdminLandingPageTests.successfullyLoginInAdminPanelWithCorrectCredentials()[pri:0, instance:em.selenium.automation.AdminLandingPageTests@58d75e99]" name="successfullyLoginInAdminPanelWithCorrectCredentials" class="em.selenium.automation.AdminLandingPageTests"/>
+      </group> <!-- all-tests -->
+    </groups>
+    <test started-at="2020-03-11T15:55:24Z" name="Default test" finished-at="2020-03-11T15:56:27Z" duration-ms="63258">
+      <class name="em.selenium.automation.AdminLandingPageTests">
+        <test-method is-config="true" signature="startSelenium(java.lang.String)[pri:0, instance:em.selenium.automation.AdminLandingPageTests@58d75e99]" started-at="2020-03-11T17:55:24Z" name="startSelenium" finished-at="2020-03-11T17:55:29Z" duration-ms="4826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[config/chrome.EMAutomation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSelenium -->
+        <test-method signature="successfullyAccessAdminLandingPage()[pri:0, instance:em.selenium.automation.AdminLandingPageTests@58d75e99]" started-at="2020-03-11T17:55:29Z" name="successfullyAccessAdminLandingPage" finished-at="2020-03-11T17:55:34Z" duration-ms="4668" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<h2>Verify that user can successfully access Admin landing page</h2>]]>
+            </line>
+            <line>
+              <![CDATA[<ol type='1'>]]>
+            </line>
+            <line>
+              <![CDATA[<li>Navigate to the Admin Panel landing page...<b><font color='green'>OK</font></b></li>]]>
+            </line>
+            <line>
+              <![CDATA[</ol>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- successfullyAccessAdminLandingPage -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:em.selenium.automation.AdminLandingPageTests@58d75e99]" started-at="2020-03-11T17:55:34Z" name="cleanup" finished-at="2020-03-11T17:55:34Z" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method is-config="true" signature="startSelenium(java.lang.String)[pri:0, instance:em.selenium.automation.AdminLandingPageTests@58d75e99]" started-at="2020-03-11T17:55:34Z" name="startSelenium" finished-at="2020-03-11T17:55:38Z" duration-ms="4643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[config/chrome.EMAutomation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSelenium -->
+        <test-method signature="successfullyCheckRememberMeCheckbox()[pri:0, instance:em.selenium.automation.AdminLandingPageTests@58d75e99]" started-at="2020-03-11T17:55:38Z" name="successfullyCheckRememberMeCheckbox" finished-at="2020-03-11T17:55:43Z" duration-ms="4935" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<h2>Verify customer successfully check remember me checkbox</h2>]]>
+            </line>
+            <line>
+              <![CDATA[<ol type='1'>]]>
+            </line>
+            <line>
+              <![CDATA[<li>Navigate to the Admin Panel landing page...<b><font color='green'>OK</font></b></li>]]>
+            </line>
+            <line>
+              <![CDATA[<li>Type 'euromaster_b2b_platform_team@stanga.net' in the 'Email' input field...<b><font color='green'>OK</font></b></li>]]>
+            </line>
+            <line>
+              <![CDATA[<li>Click on 'Remember me' checkbox...<b><font color='green'>OK</font></b></li>]]>
+            </line>
+            <line>
+              <![CDATA[<li>Click on 'Remember me' checkbox...<b><font color='green'>OK</font></b></li>]]>
+            </line>
+            <line>
+              <![CDATA[</ol>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- successfullyCheckRememberMeCheckbox -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:em.selenium.automation.AdminLandingPageTests@58d75e99]" started-at="2020-03-11T17:55:43Z" name="cleanup" finished-at="2020-03-11T17:55:48Z" duration-ms="4373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method is-config="true" signature="startSelenium(java.lang.String)[pri:0, instance:em.selenium.automation.AdminLandingPageTests@58d75e99]" started-at="2020-03-11T17:55:48Z" name="startSelenium" finished-at="2020-03-11T17:55:52Z" duration-ms="4629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[config/chrome.EMAutomation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSelenium -->
+        <test-method signature="successfullyDisplayErrorWhenWrongPasswordIsEntered()[pri:0, instance:em.selenium.automation.AdminLandingPageTests@58d75e99]" started-at="2020-03-11T17:55:52Z" name="successfullyDisplayErrorWhenWrongPasswordIsEntered" finished-at="2020-03-11T17:55:58Z" duration-ms="5231" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<h2>Verify that error is thrown when wrong password is entered</h2>]]>
+            </line>
+            <line>
+              <![CDATA[<ol type='1'>]]>
+            </line>
+            <line>
+              <![CDATA[<li>Navigate to the Admin Panel landing page...<b><font color='green'>OK</font></b></li>]]>
+            </line>
+            <line>
+              <![CDATA[<li>Type 'euromaster_b2b_platform_team@stanga.net' in the 'Email' input field...<b><font color='green'>OK</font></b></li>]]>
+            </line>
+            <line>
+              <![CDATA[<li>Type 'Wrongpassword123' in the 'Password' input field...<b><font color='green'>OK</font></b></li>]]>
+            </line>
+            <line>
+              <![CDATA[<li>Click on 'Login' button...<b><font color='green'>OK</font></b></li>]]>
+            </line>
+            <line>
+              <![CDATA[</ol>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- successfullyDisplayErrorWhenWrongPasswordIsEntered -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:em.selenium.automation.AdminLandingPageTests@58d75e99]" started-at="2020-03-11T17:55:58Z" name="cleanup" finished-at="2020-03-11T17:55:58Z" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method is-config="true" signature="startSelenium(java.lang.String)[pri:0, instance:em.selenium.automation.AdminLandingPageTests@58d75e99]" started-at="2020-03-11T17:55:58Z" name="startSelenium" finished-at="2020-03-11T17:56:02Z" duration-ms="4643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[config/chrome.EMAutomation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSelenium -->
+        <test-method signature="successfullyDisplayErrorWhenWrongUsernameIsEntered()[pri:0, instance:em.selenium.automation.AdminLandingPageTests@58d75e99]" started-at="2020-03-11T17:56:02Z" name="successfullyDisplayErrorWhenWrongUsernameIsEntered" finished-at="2020-03-11T17:56:08Z" duration-ms="5282" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<h2>Verify that error is thrown when wrong username is entered</h2>]]>
+            </line>
+            <line>
+              <![CDATA[<ol type='1'>]]>
+            </line>
+            <line>
+              <![CDATA[<li>Navigate to the Admin Panel landing page...<b><font color='green'>OK</font></b></li>]]>
+            </line>
+            <line>
+              <![CDATA[<li>Type 'wrong_email@test.com' in the 'Email' input field...<b><font color='green'>OK</font></b></li>]]>
+            </line>
+            <line>
+              <![CDATA[<li>Type 'q1w2e3r4' in the 'Password' input field...<b><font color='green'>OK</font></b></li>]]>
+            </line>
+            <line>
+              <![CDATA[<li>Click on 'Login' button...<b><font color='green'>OK</font></b></li>]]>
+            </line>
+            <line>
+              <![CDATA[</ol>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- successfullyDisplayErrorWhenWrongUsernameIsEntered -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:em.selenium.automation.AdminLandingPageTests@58d75e99]" started-at="2020-03-11T17:56:08Z" name="cleanup" finished-at="2020-03-11T17:56:08Z" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method is-config="true" signature="startSelenium(java.lang.String)[pri:0, instance:em.selenium.automation.AdminLandingPageTests@58d75e99]" started-at="2020-03-11T17:56:08Z" name="startSelenium" finished-at="2020-03-11T17:56:12Z" duration-ms="4691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[config/chrome.EMAutomation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSelenium -->
+        <test-method signature="successfullyDisplayMessagesThatEmailAnPasswordFieldsAreRequired()[pri:0, instance:em.selenium.automation.AdminLandingPageTests@58d75e99]" started-at="2020-03-11T17:56:12Z" name="successfullyDisplayMessagesThatEmailAnPasswordFieldsAreRequired" finished-at="2020-03-11T17:56:17Z" duration-ms="4900" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<h2>Verify that error is thrown when no email and password is entered</h2>]]>
+            </line>
+            <line>
+              <![CDATA[<ol type='1'>]]>
+            </line>
+            <line>
+              <![CDATA[<li>Navigate to the Admin Panel landing page...<b><font color='green'>OK</font></b></li>]]>
+            </line>
+            <line>
+              <![CDATA[<li>Click on 'Login' button...<b><font color='green'>OK</font></b></li>]]>
+            </line>
+            <line>
+              <![CDATA[</ol>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- successfullyDisplayMessagesThatEmailAnPasswordFieldsAreRequired -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:em.selenium.automation.AdminLandingPageTests@58d75e99]" started-at="2020-03-11T17:56:17Z" name="cleanup" finished-at="2020-03-11T17:56:17Z" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method is-config="true" signature="startSelenium(java.lang.String)[pri:0, instance:em.selenium.automation.AdminLandingPageTests@58d75e99]" started-at="2020-03-11T17:56:17Z" name="startSelenium" finished-at="2020-03-11T17:56:22Z" duration-ms="4616" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[config/chrome.EMAutomation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSelenium -->
+        <test-method signature="successfullyLoginInAdminPanelWithCorrectCredentials()[pri:0, instance:em.selenium.automation.AdminLandingPageTests@58d75e99]" started-at="2020-03-11T17:56:22Z" name="successfullyLoginInAdminPanelWithCorrectCredentials" finished-at="2020-03-11T17:56:27Z" duration-ms="5250" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<h2>Verify that user can successfully login in Admin with correct credentials</h2>]]>
+            </line>
+            <line>
+              <![CDATA[<ol type='1'>]]>
+            </line>
+            <line>
+              <![CDATA[<li>Navigate to the Admin Panel landing page...<b><font color='green'>OK</font></b></li>]]>
+            </line>
+            <line>
+              <![CDATA[<li>Type 'euromaster_b2b_platform_team@stanga.net' in the 'Email' input field...<b><font color='green'>OK</font></b></li>]]>
+            </line>
+            <line>
+              <![CDATA[<li>Type 'q1w2e3r4' in the 'Password' input field...<b><font color='green'>OK</font></b></li>]]>
+            </line>
+            <line>
+              <![CDATA[<li>Click on 'Login' button...<b><font color='green'>OK</font></b></li>]]>
+            </line>
+            <line>
+              <![CDATA[</ol>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- successfullyLoginInAdminPanelWithCorrectCredentials -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:em.selenium.automation.AdminLandingPageTests@58d75e99]" started-at="2020-03-11T17:56:27Z" name="cleanup" finished-at="2020-03-11T17:56:27Z" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- em.selenium.automation.AdminLandingPageTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

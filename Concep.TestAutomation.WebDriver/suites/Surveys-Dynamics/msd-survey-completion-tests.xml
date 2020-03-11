@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Dynamics Surveys completion Functional Test Cases">
+    <test name="Dynamics Surveys completion Functional Test Cases">
+        <groups>
+            <run>
+                <include name="survey-completion"/>
+                <exclude name="open-defects"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="concep.selenium.Dynamic.*"/>
+        </packages>
+    </test>
+</suite>

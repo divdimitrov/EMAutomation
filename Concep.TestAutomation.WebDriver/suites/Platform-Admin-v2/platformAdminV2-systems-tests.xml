@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Platform Admin v2 - Systems Page Tests">
+    <test name="Platform Admin v2 - Systems Page Tests">
+        <groups>
+            <run>
+                <include name="systems-tests"/>
+                <exclude name="open-defects"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="concep.platformAdmin.v2.*"/>
+        </packages>
+    </test>
+</suite>

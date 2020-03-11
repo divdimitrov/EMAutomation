@@ -1,0 +1,5 @@
+urlHost=http://localhost:5555/wd/hub
+browser=fireFox
+pageLoadTimeOut=20000
+ajaxTimeOut=10000
+elementTimeOut=5000

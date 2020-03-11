@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [IA Connector v1.1 Surveys - Completion Tests]">
+  <test name="IA Connector v1.1 Surveys - Completion Tests(failed)">
+    <groups>
+      <run>
+        <include name="survey-completion"/>
+        <exclude name="open-defects"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="concep.selenium.iaConnector.SurveyCompletionWithAllMappings">
+        <methods>
+          <include name="successfullyCompletedSurveyWithDifferentTypesOfAdditionalField"/>
+          <include name="cleanup"/>
+          <include name="successfullyCompletedSurveyWithBMobileHMobileDepartmentAssistantFields"/>
+        </methods>
+      </class> <!-- concep.selenium.iaConnector.SurveyCompletionWithAllMappings -->
+      <class name="concep.selenium.iaConnector.SurveyCompletionWithAdditionalFieldMapping">
+        <methods>
+          <include name="successfullyCompletedSurveyTypeAdministrativefolderMultipleQuestionsLinkedToGFAndLFNewContact"/>
+          <include name="successfullyCompletedSurveyNoSponsorFolderMultipleQuestionsLinkedWithMultipleValuesToNewContact"/>
+          <include name="successfullyCompletedSurveyNoSponsorContactOnlyFolderMultipleQuestionsLinkedToGFAndLFNewCompanyAndContactMustNotCreated"/>
+          <include name="successfullyCompletedSurveyTypeMarkitngListSponsorfolderMultipleQuestionLinkedToGFAndLFNewContact"/>
+          <include name="successfullyCompletedSurveyTypeRegistrationMarkitngListSponsorIAfolderFTQuestionLinkedToLFNewContactNewCompany"/>
+          <include name="successfullyCompletedSurveyNoSponsorContactOnlyFolderMultipleQuestionsLinkedToGFAndLFNewContact"/>
+          <include name="successfullyCompletedSurveyTypeRegistrationSponsorContactOnlyIAfolderFTQuestionLinkedToLFNewContact"/>
+          <include name="successfullyCompletedSurveyTypeAdministrativefolderMultipleQuestionsLinkedToGFAndLFNewCompnay"/>
+          <include name="successfullyCompletedSurveyTypeRegistrationMarkitngListSponsorIAfolderFTQuestionLinkedToLFNewContact"/>
+          <include name="successfullyCompletedSurveyTypeRegistrationMarkitngListSponsorIAfolderMCQuestionLinkedToLFNewContact"/>
+          <include name="successfullyCompletedSurveyTypeRegistrationMarkitngListSponsorIAfolderFTQuestionLinkedToGFNewContact"/>
+          <include name="cleanup"/>
+          <include name="successfullyCompletedFeedbackSurveyNoSponsorContactOnlyFolderMCQuestionLinkedToLFNewContact"/>
+          <include name="startSelenium"/>
+          <include name="successfullyCompletedSurveyMarkitngListNoSponsorFolderMultipleQuestionsLinkedToGFAndLFNewContact"/>
+          <include name="successfullyCompletedSurveyTypeSponsorContactOnlyFolderMultipleQuestionLinkedWithMultipleValuesToNewContact"/>
+          <include name="successfullyCompletedSurveyTypeRegistrationSponsorContactOnlyIAfolderMCQuestionLinkedToGFNewContact"/>
+          <include name="successfullyCompletedSurveyTypeRegistrationMarkitngListSponsorIAfolderMCQuestionLinkedToGFNewContact"/>
+          <include name="successfullyCompletedSurveyNoSponsorContactOnlyFolderMultipleQuestionsLinkedWithMultipleValuesToNewContact"/>
+          <include name="successfullyCompletedSurveyTypeRegistrationMarkitngListSponsorIAfolderMCQuestionLinkedToGFNewContactNewCompany"/>
+          <include name="successfullyCompletedSurveyTypeSponsorfolderMultipleQuestionLinkedWithMultipleValuesToNewContact"/>
+          <include name="successfullyCompletedFeedbackSurveyNoSponsorContactOnlyFolderFTQuestionLinkedToLFNewContact"/>
+          <include name="successfullyCompletedSurveyNoSponsorContactOnlyFolderMultipleQuestionsLinkedToGFAndLFNewCompanyMustNotCreated"/>
+          <include name="successfullyCompletedSurveyTypeMarkitngListSponsorfolderMultipleQuestionLinkedToGFAndLFNewCompany"/>
+          <include name="successfullyCompletedSurveyTypeRegistrationSponsorContactOnlyIAfolderFTQuestionLinkedToGFNewContact"/>
+          <include name="successfullyCompletedSurveyMarkitngListNoSponsorFolderMultipleQuestionsLinkedToGFAndLFNewCompany"/>
+          <include name="successfullyCompletedSurveyTypeRegistrationMarkitngListSponsorIAfolderFTQuestionLinkedToGFNewContactNewCompany"/>
+          <include name="successfullyCompletedSurveyTypeRegistrationMarkitngListSponsorIAfolderMCQuestionLinkedToLFNewContactNewCompany"/>
+          <include name="deleteAndCreateConnectionToIA"/>
+          <include name="successfullyCompletedSurveyTypeRegistrationSponsorContactOnlyIAfolderMCQuestionLinkedToLFNewContact"/>
+          <include name="successfullyCompletedSurveyTypeSponsorContactOnlyFolderMultipleQuestionLinkedToGFAndLFNewContact"/>
+        </methods>
+      </class> <!-- concep.selenium.iaConnector.SurveyCompletionWithAdditionalFieldMapping -->
+      <class name="concep.selenium.iaConnector.SurveyCompletion">
+        <methods>
+          <include name="successfullyCompletedSurveyWithEmailConfirmation"/>
+          <include name="successfullyCompletedSurveyWithLoginAs"/>
+          <include name="successfullyCompletedSurveyWithPageJumping"/>
+          <include name="cleanup"/>
+          <include name="successfullyCompletedSurveyWith10Pages"/>
+          <include name="startSelenium"/>
+          <include name="beforeClassSetUP"/>
+          <include name="successfullyCompletedSurveyWith10MappedQuestions"/>
+        </methods>
+      </class> <!-- concep.selenium.iaConnector.SurveyCompletion -->
+    </classes>
+  </test> <!-- IA Connector v1.1 Surveys - Completion Tests(failed) -->
+</suite> <!-- Failed suite [IA Connector v1.1 Surveys - Completion Tests] -->
